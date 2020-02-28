@@ -36,38 +36,5 @@ Memory will contain one program that the CPU will execute and then the simulatio
      Interrupts should be disabled during interrupt processing to avoid nested execution.
      The iret instruction returns from an interrupt.
 
-    1 = Load value                    
-    2 = Load addr
-    3 = LoadInd addr   
-   
-    4 = LoadIdxX addr
-   
-    5 = LoadIdxY addr
-    6 = LoadSpX
-    7 = Store addr
-    8 = Get 
-    9 = Put port
 
-    10 = AddX
-    11 = AddY
-    12 = SubX
-    13 = SubY
-    14 = CopyToX
-    15 = CopyFromX
-    16 = CopyToY
-    17 = CopyFromY
-    18 = CopyToSp
-    19 = CopyFromSp   
-    20 = Jump addr
-    21 = JumpIfEqual addr
-    22 = JumpIfNotEqual addr
-    23 = Call addr
-    24 = Ret 
-    25 = IncX 
-    26 = DecX 
-    27 = Push
-    28 = Pop
-    29 = Int 
-    30 = IRet
-    50 = End	Load the value into the AC
    
