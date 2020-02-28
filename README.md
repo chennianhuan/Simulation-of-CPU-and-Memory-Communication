@@ -71,37 +71,3 @@ Memory will contain one program that the CPU will execute and then the simulatio
    30 = IRet
    50 = End	Load the value into the AC
    
-Load the value at the address into the AC
-Load the value from the address found in the given address into the AC
-(for example, if LoadInd 500, and 500 contains 100, then load from 100).
-Load the value at (address+X) into the AC
-(for example, if LoadIdxX 500, and X contains 10, then load from 510).
-Load the value at (address+Y) into the AC
-Load from (Sp+X) into the AC (if SP is 990, and X is 1, load from 991).
-Store the value in the AC into the address
-Gets a random int from 1 to 100 into the AC
-If port=1, writes AC as an int to the screen
-If port=2, writes AC as a char to the screen
-Add the value in X to the AC
-Add the value in Y to the AC
-Subtract the value in X from the AC
-Subtract the value in Y from the AC
-Copy the value in the AC to X
-Copy the value in X to the AC
-Copy the value in the AC to Y
-Copy the value in Y to the AC
-Copy the value in AC to the SP
-Copy the value in SP to the AC 
-Jump to the address
-Jump to the address only if the value in the AC is zero
-Jump to the address only if the value in the AC is not zero
-Push return address onto stack, jump to the address
-Pop return address from the stack, jump to the address
-Increment the value in X
-Decrement the value in X
-Push AC onto stack
-Pop from stack into AC
-Perform system call
-Return from system call
-End execution
-
